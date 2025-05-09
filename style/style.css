@@ -2,6 +2,16 @@
    margin: 0;
    padding: 0;
 }
+body p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
 section {
     margin-bottom: 70px;
 }
@@ -84,7 +94,9 @@ nav li{
         text-align: center;
 }
 
-
+.first-content{
+    text-align: left;
+}
 .web-content{
     display: flex;
     text-align: center;
@@ -99,15 +111,34 @@ nav li{
 .web-section h2{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 800;
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 15px;
 }
+
+.web-section h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 .web-section p{
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    /* text-align: center; */
 }
 
 .why-web-container{
@@ -120,3 +151,241 @@ nav li{
     margin: 0 auto;
     padding: 60px;
 }
+
+
+.my-inspiration{
+    margin: 0 auto;
+    text-align: center;
+    margin: 60px;
+}
+.my-inspiration p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.my-inspiration h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.my-inspiration .video{
+    width: 1000px;
+    margin: 30px auto;
+}
+.my-inspiration iframe{
+   
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+.my-target{
+   margin: 100px auto;
+    width: 800px;
+  
+}
+.skills-container{
+    text-align: center;
+}
+.skills-container h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px;
+}
+.skills-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 60px;
+    }
+.skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 30px;
+
+}
+.skills button{
+    border: none;
+    margin-top: 20px;
+}
+
+.skills img{
+    width: 50px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+
+
+
+.my-next-target{
+   margin: 70px 0;
+}
+.next-target{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.next-target h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.next-target p{
+    text-align: center;
+    margin-top: 15px;
+}
+.React{
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+.react-1{
+    flex: 1;
+    padding-right: 20px;
+}
+.react-1 img{
+    width: 8;
+}
+.react-heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.react-2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+.react-2 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+.react-2 a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    }
+
+    .support{
+        background-image: url('../assets/handshake.jpg');
+        width: 800px;
+        height: auto;
+        background-size: cover;
+        height: 170px;
+        background-repeat: no-repeat;
+        background-position: 0%;
+        padding: 30px;
+        margin: 70px auto;
+        border-radius: 10px;
+        
+    }
+    .support-system-1 h3{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .support-para{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .support-system{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    .support-system input[type='text']{
+        padding: 10px 5px;
+        border: none;
+        margin-right: 10px;
+        width: 300px;
+        border-radius: 5px;
+        outline: none;
+        
+    }
+    .support-system input[type='submit']{
+        width: 120px;
+        padding: 10px 5px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+
+    .footer{
+        width: 800px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+        background-color:  rgba(13, 19, 33, 0.03);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .social img{
+        width: 30px;
+        margin-right: 10px;
+    }
